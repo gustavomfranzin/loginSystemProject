@@ -18,11 +18,14 @@ Por padrão neste repositório: (root - rootPassword)
 
 Script SQL para criação da tabela: 
 
-> *"CREATE TABLE users (
->     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 	name VARCHAR(50) NOT NULL,
->     login VARCHAR(50) NOT NULL UNIQUE,
->     password VARCHAR(255) NOT NULL,
->     created_at DATETIME DEFAULT CURRENT_TIMESTAMP ); "*
+     "CREATE TABLE users 
+     (
+	      id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 	
+	      name VARCHAR(50) NOT NULL,
+	      login VARCHAR(50) NOT NULL UNIQUE,
+	      password VARCHAR(255) NOT NULL,
+	      created_at DATETIME DEFAULT CURRENT_TIMESTAMP 
+     );"
 
 
 # # Executando a aplicação
